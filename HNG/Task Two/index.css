@@ -1,0 +1,136 @@
+body {
+  background: rgba(235, 230, 230, 0.678);
+}
+
+img {
+  width: 25%;
+  border-radius: 10%;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 25px;
+}
+
+h3 {
+  color: rgba(177, 35, 30, 0.726);
+  margin: 20px;
+}
+
+span,
+.projects h4 {
+  color: coral;
+}
+
+a {
+  color: rgba(177, 35, 30, 0.726);
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+td {
+  padding: 10px 15px;
+}
+
+td h4 {
+  color: rgba(177, 35, 30, 0.726);
+}
+/* Headers styling */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 80px;
+}
+
+.author-img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.author-info {
+  color: rgba(177, 35, 30, 0.726);
+  margin-left: -160px;
+}
+/* Body section styling */
+.aim {
+  width: 40%;
+  text-align: left;
+  margin-left: 80px;
+  margin-bottom: 30px;
+  background: coral;
+  padding: 20px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.exp-edu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0px 80px;
+}
+
+/* Experience section */
+.exp-back {
+  flex: 6;
+}
+
+.work h4 {
+  color: coral;
+}
+
+.work h5 {
+  color: rgba(177, 35, 30, 0.726);
+}
+
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px dotted coral;
+}
+
+.place p {
+  width: 60%;
+}
+
+.year {
+  width: 20%;
+}
+/* Educational section */
+.edu-back {
+  margin-left: 80px;
+  margin-top: -500px;
+  flex: 3;
+}
+
+/* Tools and Projects Section */
+.tools-project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 80px 50px 80px;
+}
+
+.tools {
+  flex: 6;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: rgba(177, 35, 30, 0.726);
+}
+
+.projects {
+  margin-top: -350px;
+  flex: 3;
+  margin-right: -50px;
+}
